@@ -1,0 +1,31 @@
+[user]
+	name = Patrick Smith
+	email = patricks@aweber.com
+[diff]
+[color]
+    ui = auto
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    di = diff
+    dc = diff --cached
+    amend = commit --amend
+    aa = add --all
+    head = log -1
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    d = diff --word-diff
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    ls = ls-files
+    # Show files ignored by git:
+    ign = ls-files -o -i --exclude-standard
+[merge]
+    tool = opendiff
+[branch]
+	autosetupmerge = true
+[init]
+	templatedir = ~/.git_template
+[mergetool]
+	keepBackup = true

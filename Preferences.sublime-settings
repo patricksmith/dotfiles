@@ -1,0 +1,25 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"GitGutter",
+		"Dayle Rees Color Schemes"
+	],
+	"move_to_limit_on_up_down": false,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"theme": "Nil.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}

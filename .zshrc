@@ -267,7 +267,10 @@ alias v=vagrant
 alias rgrep='find . -type f | xargs grep 2> /dev/null'
 alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 export TM_PYCHECKER=pylint
+
+# rednose must be installed by pip
 alias t="nosetests --nocapture --rednose -v --stop"
+# Should also install nosyd: pip install git+git://github.com/lacostej/nosyd.git@291ef6a
 
 export WORKON_HOME=~/repos/envs
 source /usr/local/bin/virtualenvwrapper.sh
@@ -285,3 +288,6 @@ export PATH="$PATH:/Users/psmith/bin"
 set -o emacs set editing-mode emacs
 
 alias gtidy="git remote prune origin && git branch --merged master | egrep -v 'master|develop$' | xargs git branch -d"
+
+# jsx provided by react-tools npm package: https://www.npmjs.com/package/react-tools
+alias jsxxx="jsx --extension jsx --watch assets/js/reactSrc assets/linker/js/reactBuild/"

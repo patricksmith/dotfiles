@@ -291,3 +291,5 @@ alias gtidy="git remote prune origin && git branch --merged master | egrep -v 'm
 
 # jsx provided by react-tools npm package: https://www.npmjs.com/package/react-tools
 alias jsxxx="jsx --extension jsx --watch assets/js/reactSrc assets/linker/js/reactBuild/"
+
+alias kata=~/repos/kata-py/make_kata.sh
